@@ -10,4 +10,9 @@ COPY . .
 
 RUN rm -rf py_generators config_sample.env Dockerfile LICENSE README.md requirements.txt
 
+EXPOSE 80
+EXPOSE 8080
+EXPOSE 8070
+EXPOSE 8090
+
 CMD ["bash", "start.sh"]
